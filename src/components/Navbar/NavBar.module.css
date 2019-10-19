@@ -1,0 +1,17 @@
+.nav {
+  grid-area: n;
+  background-color: #2160b4;
+  font-size: 18px;
+  color: #fff;
+  padding: 20px;
+}
+
+.nav p {
+  text-align: center;
+}
+.nav a {
+  text-decoration: none;
+}
+.nav a.activeLink {
+  color: rgb(238, 224, 30);
+}
