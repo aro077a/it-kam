@@ -6,6 +6,7 @@ import * as axios from "axios";
 class Users extends Component {
   constructor(props) {
     super(props);
+    this.state = {};
   }
   getUsers = () => {
     if (this.props.users.length === 0) {
