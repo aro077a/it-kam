@@ -8,16 +8,16 @@ import { connect } from "react-redux";
 
 const mapStateToProps = state => {
   return {
-    // dialogsPage: {state.dialogsPage}
+    dialogsPage: state.dialogsPage
   };
 };
 
 const mapDispatchToProps = dispatch => {
   return {
-    updateNewMessageBody: () => {
+    sendMessage: () => {
       dispatch(sendMessageCreator());
     },
-    sendMessage: body => {
+    updateNewMessageBody: body => {
       dispatch(updateNewMessageBodyCreator(body));
     }
   };
