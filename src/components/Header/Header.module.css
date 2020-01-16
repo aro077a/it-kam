@@ -1,14 +1,21 @@
 .header {
-    grid-area: h;
-    background: #b92b27;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #1565C0, #b92b27);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  grid-area: h;
+  background: #b92b27;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1565c0, #b92b27);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1565c0, #b92b27);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .header img {
-    width: 70px;
-    margin-bottom: 10px;
+  width: 70px;
+  margin-bottom: 10px;
+}
+.loginBlock {
+  float: right;
+}
+.loginBlock a {
+  color: #fff;
+  text-decoration: none;
 }
